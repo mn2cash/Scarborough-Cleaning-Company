@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from 'https://esm.sh/framer-motion@10.18.0?de
 import htm from 'https://esm.sh/htm@3';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
+import MobileDock from './components/MobileDock.jsx';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Services from './pages/Services.js';
@@ -56,6 +57,7 @@ const App = () => {
           <//>
         <//>
       </main>
+      <${MobileDock} />
       <${Footer} />
     <//>
   `;
