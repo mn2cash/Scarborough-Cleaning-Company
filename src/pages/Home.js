@@ -66,7 +66,7 @@ const Home = () =>
               <span>Cleanings completed</span>
             </div>
             <div>
-              <strong>4.9 ★</strong>
+              <strong>4.9 rating</strong>
               <span>Client satisfaction</span>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Home = () =>
               <h3>Next-day availability</h3>
               <p>Book today and we can be on-site as early as tomorrow morning.</p>
               <${Link} to="/booking" className="link">
-                Schedule now →
+                Schedule now ->
               <//>
             </div>
           </div>
@@ -129,14 +129,14 @@ const Home = () =>
         <div className="cta-card">
           <h3>Ready for a spotless space?</h3>
           <p className="muted">
-            Share your space details and preferences—we’ll tailor a plan and confirm quickly.
+            Share your space details and preferences—we will tailor a plan and confirm quickly.
           </p>
           <${Link} to="/booking" className="btn btn-primary full">
             Start Booking
           <//>
           <div className="cta-note">
             <strong>Need same-day?</strong>
-            <span>Call (647) 555-1188 and we’ll prioritize your request.</span>
+            <span>Call (647) 555-1188 and we will prioritize your request.</span>
           </div>
         </div>
       </section>

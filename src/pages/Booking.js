@@ -37,11 +37,11 @@ const Booking = () => {
           <p className="eyebrow">Booking</p>
           <h2>Book a cleaning in minutes</h2>
           <p className="muted">
-            Tell us about your space, schedule, and preferences. We’ll confirm your appointment and share a tailored plan.
+            Tell us about your space, schedule, and preferences. We will confirm your appointment and share a tailored plan.
           </p>
           <div className="cta-note">
             <strong>Need urgent service?</strong>
-            <span>Call (647) 555-1188 and we’ll prioritize your slot.</span>
+            <span>Call (647) 555-1188 and we will prioritize your slot.</span>
           </div>
         </div>
         <div className="form-card">

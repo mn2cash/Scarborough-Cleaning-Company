@@ -39,7 +39,7 @@ const Footer = () =>
               <${FiLinkedin} />
             </a>
           </div>
-          <p className="muted">© ${new Date().getFullYear()} Scarborough CleanCo</p>
+          <p className="muted">(c) ${new Date().getFullYear()} Scarborough CleanCo</p>
         </div>
       </div>
     </footer>

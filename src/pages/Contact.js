@@ -20,7 +20,7 @@ const Contact = () => {
       <section className="section split">
         <div>
           <p className="eyebrow">Contact</p>
-          <h2>We’re here to help</h2>
+          <h2>We are here to help</h2>
           <p className="muted">
             Reach out for quotes, scheduling, or special requests. We respond quickly during business hours.
           </p>
@@ -53,7 +53,7 @@ const Contact = () => {
             <button type="submit" className="btn btn-primary full">
               Send Message
             </button>
-            ${submitted && html`<div className="success">Thanks! We’ll reply shortly.</div>`}
+            ${submitted && html`<div className="success">Thanks! We will reply shortly.</div>`}
           </form>
         </div>
       </section>
