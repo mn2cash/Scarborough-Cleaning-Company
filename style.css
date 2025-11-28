@@ -222,29 +222,40 @@ p {
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(14px);
   border: 1px solid var(--border);
   border-radius: 18px;
   padding: 1.5rem;
   width: 100%;
-  max-width: 420px;
+  max-width: 440px;
   box-shadow: var(--shadow);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.glass-card .muted {
+  grid-column: 1 / -1;
+  margin-bottom: 0.5rem;
 }
 
 .tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1rem 0;
+  display: grid;
+  gap: 0.6rem;
 }
 
 .tags span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
   background: var(--primary-soft);
   color: var(--text);
-  padding: 0.5rem 0.75rem;
-  border-radius: 999px;
-  font-size: clamp(0.85rem, 2.4vw, 0.95rem);
+  padding: 0.55rem 0.85rem;
+  border-radius: 12px;
+  font-size: clamp(0.9rem, 2.4vw, 1rem);
+  min-width: 140px;
 }
 
 .panel-highlight {
@@ -252,6 +263,10 @@ p {
   border: 1px solid var(--border);
   border-radius: 14px;
   padding: 1.1rem;
+  height: 100%;
+  display: grid;
+  align-content: center;
+  gap: 0.4rem;
 }
 
 .panel-highlight h3 {
@@ -525,5 +540,6 @@ textarea {
 @media (min-width: 1024px) {
   .hero {
     grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
   }
 }
